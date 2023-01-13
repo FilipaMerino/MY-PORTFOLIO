@@ -1,0 +1,27 @@
+// _____________ SCROLL DOWN BUTTON - FIRST BUTTON _____________________
+
+#scrollbutton{
+  border: solid;
+  border-radius: 50%;
+  padding: 8px;
+  border-color: $primary;
+  color: $primary;
+}
+
+.btn-primary{
+  color: $white;
+  background-color:$pink;
+  border: solid;
+  border-color: $pink;
+}
+
+.btn-primary:hover{
+  color: $pink;
+  background-color:$bege;
+  border: solid;
+  border-color: $pink;
+  }
+
+  .contactme{
+    color: black;
+  }
