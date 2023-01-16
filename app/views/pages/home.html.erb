@@ -1,137 +1,141 @@
 <%# _______________COVER ______________ %>
-
-<div class="container cover d-flex align-items-center">
-  <div class="col-lg-12 d-flex flex-column justify-content-evenly align-items-center">
-    <div class="row d-flex flex-column ">
-      <h1>Hi, I'm Filipa</h1>
-      <p class="d-flex justify-content-center">A Web Developer.</p>
-    </div>
-    <div class="col-xs-12 my-3">
-      <a href="#about"><i class="fa-solid fa-arrow-down" id="scrollbutton"></i></a>
-    </div>
-  </div>
-</div>
-
-<%# __________________________ A BIT ABOUT ME _____________________________ %>
-
-
-<%# ABOUT ME SESSION %>
-
-
-
-<div class="BIO d-flex justify-content-center justify-content-evenly p-5">
-  <div class="col-lg-6 d-flex justify-content-center">
-    <div class="row d-flex">
-      <div>
-        <%= image_tag "aboutme.JPG", class: "imageabout", id:"about" %>
+<div class="fullcontainer">
+  <div class="container cover d-flex align-items-center">
+    <div class="col-lg-12 d-flex flex-column justify-content-evenly align-items-center">
+      <div class="row d-flex flex-column ">
+        <h1>Hi, I'm Filipa</h1>
+        <p class="d-flex justify-content-center">A Web Developer.</p>
+      </div>
+      <div class="col-xs-12 my-3">
+        <a href="#about"><i class="fa-solid fa-arrow-down" id="scrollbutton"></i></a>
       </div>
     </div>
-    <div class="size d-flex flex-column">
-      <h1 class="mb-0">BIO</h1>
-      <h2 class="mb-0 ms-3">GRAPHY</h2>
-      <div class="p-2 bd-highlight">
-        <br>
-        <br>
-      </div>
-      <div class="d-flex align-items-end my-5">
-        <p>I stumbled upon web development during my teenage years while modifying Tumblr themes to my will. I love that it allows me to be creative and think outside the box while putting my problem-solving skills to use.</p>
-      </div>
-        <div class="row d-flex">
-          <p><%= link_to "Work with me", "#about", class: "contactme" %></p>
-        </div>
-    </div>
   </div>
-</div>
+
+  <%# __________________________ A BIT ABOUT ME _____________________________ %>
 
 
-<%# ______________ SKILSS ____________________ %>
-<div class="skillscontainer">
-  <div class="my-5">
-    <h1 class="d-flex justify-content-center">What I can help you with</h1>
-    <p class="d-flex justify-content-center">I am always open to discussing custom solutions for your specific needs. If there's something you don't see listed, please don't hesitate to reach out to me.</p>
-  </div>
-  <div id="skills" class="container d-flex my-5 justify-content-center mb-5">
-    <div class="row justify-content-around">
-      <div class="card text-center p-5 card-skills col-lg-3 col-md-12 my-3">
+  <%# ABOUT ME SESSION %>
+
+
+
+  <div class="BIO d-flex justify-content-center justify-content-evenly p-5">
+    <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+      <div class="row d-flex">
         <div>
-          <%= image_tag "frontend.svg", class:"skills-image" %>
+          <%= image_tag "aboutme.JPG", class: "imageabout", id:"about" %>
         </div>
-        <h5 class="card-title"><strong>Front-end</strong></h5>
-        <p class="card-text">From design to code, I create responsive and visually appealing websites. </p>
-        <p class="programingLanguages"><strong>Bootstrap | CSS | SCSS | Javascript | HTML</strong></p>
       </div>
-
-      <div class="card text-center p-5 card-skills col-lg-3 col-md-12 my-3">
-        <div>
-          <%= image_tag "backend.svg", class:"skills-image" %>
+      <div class="size d-flex flex-column">
+        <h1 class="mb-0">BIO</h1>
+        <h2 class="mb-0 ms-3">GRAPHY</h2>
+        <div class="p-2 bd-highlight">
+          <br>
+          <br>
         </div>
-        <h5 class="card-title"><strong>Back-end</strong></h5>
-        <p class="card-text"> I'll help you build and mantain websites and web applications with powerful and reliable functionality.</p>
-        <p class="programingLanguages"><strong>Ruby | Ruby on Rails | SQL-Postgresql </strong></p>
-      </div>
-
-      <div class="card text-center p-5 card-skills col-lg-3 col-md-12 my-3">
-        <div>
-          <%= image_tag "figma.svg", class:"skills-image" %>
+        <div class="d-flex align-items-end my-5">
+          <p>I stumbled upon web development during my teenage years while modifying Tumblr themes to my will. I love that it allows me to be creative and think outside the box while putting my problem-solving skills to use.</p>
         </div>
-        <h5 class="card-title"><strong>Web Design</strong></h5>
-        <p class="card-text">I'll design a website that meets your needs and goals and is easy to use for your visitors.</p>
-        <p class="programingLanguages"><strong>Figma</strong></p>
-      </div>
-    </div>
-  </div>
-</div>
-<%# _________ PORTFOLIO ______________ %>
-<div class="container my-5">
-  <div class="row justify-content-center mt-5">
-    <div>
-      <h1 id="portfolioexamples" class="d-flex justify-content-end mt-5 me-5">FEATURE</h1>
-      <h2 id="portfolioexamples" class="d-flex justify-content-end me-5">WORK</h2>
-    </div>
-  </div>
-  </div>
-
-<div class="container portfoliocontainer">
-  <%# _____________________ EXTENDED AWAY_____________________ %>
-  <div class="row">
-    <div class="card-product d-flex align-items-center m-a">
-      <%= image_tag "extended_away1.png", class:"imagesportfolio" %>
-      <div class="card-product-infos cardsportfolio">
-        <h4>Extended Away</h4>
-        <p>A web app designed for people who are going to travel and need someone to take care of their homes. Our mission is to provide a simple, intuitive way for Homeowners and Caretakers to interact and get things done, faster. </p>
-        <p><strong>Uses:</strong> RoR, Javascript, Bootstrap, CSS, HTML</p>
-        <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
+          <div class="row d-flex">
+            <p><%= link_to "Work with me", "#about", class: "contactme" %></p>
+          </div>
       </div>
     </div>
   </div>
 
-  <%# _____________________ GoatScape_____________________ %>
-  <div class="row">
-    <div class="card-product d-flex align-items-center m-a">
-      <div class="card-product-infos cardsportfolio">
-        <h4>GoatScape</h4>
-        <p>A Web Marketplace application on Rails 7 that replicates Airbnb functionality to create new bookings, filter, and search for listings.</p>
-        <p><strong>Uses:</strong> RoR, Javascript, Bootstrap, CSS, HTML</p>
-        <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
-      </div>
-      <%= image_tag "Goatscape.png", class:"imagesportfolio" %>
-    </div>
-  </div>
 
-
-  <%# _____________________ ADMIN VIRTUOSA_____________________ %>
-
-  <div class="row">
-    <div class="card-product d-flex align-items-center m-a">
-      <%= image_tag "adminvirtuosa.png", class:"imagesportfolio" %>
-      <div class="card-product-infos cardsportfolio">
-        <h4>Admin Virtuosa</h4>
-        <p>A website I built from scratch for a virtual assistant, before I enter the bootcamp.</p>
-        <p><strong>Uses:</strong>Bootstrap, CSS, HTML, Javascript</p>
-        <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
+  <%# ______________ SKILSS ____________________ %>
+  <div class="skillscontainer">
+    <div class="row d-flex flex-column align-items-center justify-content-start my-5">
+      <div class="col-lg-10 col-md-12">
+        <h1 class="mb-0 ms-5">PROVIDED</h1>
+        <h2 class="mb-0 ms-5">SERVICES</h2>
       </div>
     </div>
-  </div>
 
+
+
+    <div id="skills" class="container d-flex my-5 justify-content-center mb-5">
+      <div class="skillscard row justify-content-around">
+        <div class="skillscard card text-center p-5 card-skills col-lg-3 col-md-12 my-3">
+          <div>
+            <%= image_tag "frontend.svg", class:"skills-image" %>
+          </div>
+          <h3 class="card-title mb-3"><strong>Front-end</strong></h5>
+          <p class="card-text mb-3">From design to code, I create responsive and visually appealing websites. </p>
+          <p class="programingLanguages"><strong>Bootstrap | CSS | SCSS | Javascript | HTML</strong></p>
+        </div>
+
+        <div class="skillscard card text-center p-5 card-skills col-lg-3 col-md-12 my-3">
+          <div>
+            <%= image_tag "backend.svg", class:"skills-image" %>
+          </div>
+          <h3 class="card-title mb-3"><strong>Back-end</strong></h5>
+          <p class="card-text mb-3"> I'll help you build and mantain websites and web applications with powerful and reliable functionality.</p>
+          <p class="programingLanguages"><strong>Ruby | Ruby on Rails | SQL-Postgresql </strong></p>
+        </div>
+
+        <div class="card text-center p-5 card-skills col-lg-3 col-md-12 my-3">
+          <div>
+            <%= image_tag "figma.svg", class:"skills-image" %>
+          </div>
+          <h3 class="card-title mb-3"><strong>Web Design</strong></h5>
+          <p class="card-text mb-3">I'll design a website that meets your needs and goals and is easy to use for your visitors.</p>
+          <p class="programingLanguages"><strong>Figma</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%# _________ PORTFOLIO ______________ %>
+  <div class="container my-5">
+    <div class="row d-flex flex-column my-5">
+      <div class="col-lg-10 col-md-12">
+        <h1 id="portfolioexamples" class="d-flex justify-content-end mt-5">FEATURE</h1>
+        <h2 id="portfolioexamples" class="d-flex justify-content-end">WORK</h2>
+      </div>
+    </div>
+
+    <%# _____________________ EXTENDED AWAY_____________________ %>
+    <div class="row">
+      <div class="card-product d-flex align-items-center m-a">
+        <%= image_tag "extended_away1.png", class:"imagesportfolio" %>
+        <div class="card-product-infos cardsportfolio">
+          <h3 class="mb-5">Extended Away</h3>
+          <p>A web app designed for people who are going to travel and need someone to take care of their homes. Our mission is to provide a simple, intuitive way for Homeowners and Caretakers to interact and get things done, faster. </p>
+          <p><strong>Uses:</strong> RoR, Javascript, Bootstrap, CSS, HTML</p>
+          <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <%# _____________________ GoatScape_____________________ %>
+    <div class="row">
+      <div class="card-product d-flex align-items-center m-a">
+        <div class="card-product-infos cardsportfolio">
+          <h3>GoatScape</h3>
+          <p>A Web Marketplace application on Rails 7 that replicates Airbnb functionality to create new bookings, filter, and search for listings.</p>
+          <p><strong>Uses:</strong> RoR, Javascript, Bootstrap, CSS, HTML</p>
+          <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
+        </div>
+        <%= image_tag "Goatscape.png", class:"imagesportfolio" %>
+      </div>
+    </div>
+
+
+    <%# _____________________ ADMIN VIRTUOSA_____________________ %>
+
+    <div class="row">
+      <div class="card-product d-flex align-items-center m-a">
+        <%= image_tag "adminvirtuosa.png", class:"imagesportfolio" %>
+        <div class="card-product-infos cardsportfolio">
+          <h3>Admin Virtuosa</h3>
+          <p>A website I built from scratch for a virtual assistant, before I enter the bootcamp.</p>
+          <p><strong>Uses:</strong>Bootstrap, CSS, HTML, Javascript</p>
+          <a class="btn btn-primary"  href="https://www.adminvirtuosa.com/" role="button">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
   </div>
 </div>

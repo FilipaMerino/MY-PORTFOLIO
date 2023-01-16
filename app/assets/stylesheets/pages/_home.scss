@@ -1,5 +1,9 @@
 // Specific CSS for your home-page
 
+.fullcontainer{
+  width: 100%;
+  overflow: hidden;
+}
 
 // __________ Font Colors _________________
 
@@ -8,7 +12,7 @@ h1{
   font-family: 'Cormorant', serif;
   font-weight: 700!important;
   font-size: 80px;
-  color:$blue;
+  color:$black;
 }
 
 h2{
@@ -77,8 +81,11 @@ background-color: $bege;
 
 }
 // __________ CONTAINER______________
-.portfoliocontainer{
-  margin: 50px 50px 50px 50px;
+
+
+
+#portfolioexamples{
+    color: $black;
 }
 
 body{

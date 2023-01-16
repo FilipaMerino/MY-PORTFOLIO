@@ -11,6 +11,21 @@
   #programingLanguages{
     font-size: 10px;
   }
+
+  h3{
+    font-family: 'Cormorant', serif;
+    font-weight: 900!important;
+    color:$blue;
+  }
+
+  .card-text{
+    font-size: 15px;
+  }
+
+  p{
+    font-weight: 900!important;
+    font-size: 12px;
+  }
 }
 
 
@@ -21,8 +36,69 @@
 .cardsportfolio{
   margin-left:30px;
 
+  h3{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900!important;
+    color:$black;
+  }
+
+  a{
+    font-family: 'Libre Franklin', sans-serif;
+  }
+
 }
 
 .imagesportfolio{
   width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  // SKILLS CARDS
+
+  .skillscard{
+    display: flex;
+    justify-content: center!important;
+    margin: 15px;
+  }
+
+
+
+  // PORTFOLIO CARDS
+  .imagesportfolio {
+      display: none;
+  }
+  #portfolioexamples{
+    padding-right: 30px;
+  }
+
+  .cardsportfolio{
+    box-shadow: 6px -1px 34px 0px #ccc;
+    border:none;
+    padding:15px;
+    border-radius:13px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff3d;
+
+
+    h3{
+      justify-content: center;
+      display: flex;
+      margin-bottom: 15px!important;
+    }
+
+    a{
+      display: flex;
+      justify-content: center;
+      font-weight: 900;
+    }
+
+    p{
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+    }
+  }
 }
