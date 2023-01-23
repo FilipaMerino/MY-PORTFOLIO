@@ -1,3 +1,6 @@
+body{
+  background-color: $bege;
+}
 // Specific CSS for your home-page
 
 .fullcontainer{
@@ -43,9 +46,13 @@ p{
 width: 80%;
 }
 
-.BIO{
+.bio{
   background-color: $bege;
   position: relative;
+
+  .row{
+    padding:50px;
+  }
 
   .size{
     margin-left:50px;
@@ -68,7 +75,17 @@ width: 80%;
     font-size: 14px;
     font-weight: 900;
     margin-right: 15%;
+    margin-top: 30px;
   }
+
+  .contactme{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+  }
+
   }
 
 
@@ -88,6 +105,91 @@ background-color: $bege;
     color: $black;
 }
 
-body{
-  background-color: $bege;
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 600px) {
+
+  // COVER
+  .titlecover{
+    height: 80vh;
+
+    h1{
+      justify-content: center;
+      display: flex;
+      font-size: 50px;
+    }
+
+    p{
+      justify-content: center;
+      display: flex;
+      font-size: 20px;
+    }
+
+    a{
+      padding: 15px;
+      font-size: 20px;
+    }
+  }
+
+
+// ABOUT ME
+.bio.row{
+  padding:20px;
+}
+
+.imagediv{
+  display: flex;
+  justify-content: center;
+}
+.imageabout{
+  width: 100%;
+}
+
+.textdiv{
+  margin-top: 25px;
+  p{
+    left: 0px;
+    margin: 0 60px;
+    margin-top: 15px;
+    font-size: 15px;
+    display: flex;
+  }
+}
+
+  .contactme{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px!important;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+
+  }
+
+  h1{
+    font-family: 'Cormorant', serif;
+    font-weight: 700!important;
+    font-size: 50px;
+    color:$black;
+  }
+  h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:$black;
+  }
+
+  #skills{
+    margin-bottom:0px!important;
+  }
+
+
+  .languages{
+    font-size: 12px!important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
 }
