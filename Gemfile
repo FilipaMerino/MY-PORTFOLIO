@@ -75,3 +75,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
+gem 'mail_form', '~> 1.9'
