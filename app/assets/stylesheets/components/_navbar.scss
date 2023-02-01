@@ -1,6 +1,12 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #faf8f1;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
+  z-index: 1;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +15,28 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+
+
+
+// LETTERING
+.nav-item{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size:14px;
+  font-weight: bolder;
+}
+
+.nav-link{
+  font-family: 'Libre Franklin', sans-serif;
+  color: black;
+
+}
+
+.fa-brands{
+  color: black;
+  font-size: 25px;
+
 }
