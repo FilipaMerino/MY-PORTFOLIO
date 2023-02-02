@@ -70,18 +70,28 @@ width: 80%;
     color:$black;
 }
   p{
-    position: absolute;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 900;
-    margin-right: 15%;
-    margin-top: 30px;
+    text-align: justify;
+    margin-top: 12px;
+    line-height: 1.77;
+    margin-bottom: 0px;
+  }
+
+  h5{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    margin-top: 15px;
+    line-height: 1.77;
   }
 
   .contactme{
     display: flex;
     flex-direction: column;
-    margin-top: 130px;
+    margin-top: 140px;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 15px;
   }

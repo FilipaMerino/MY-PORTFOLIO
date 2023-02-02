@@ -19,15 +19,17 @@
     <div class="imagediv col-lg-4">
       <%= image_tag "aboutme.JPG", class: "imageabout"%>
     </div>
-    <div class="textdiv col-lg-4 col-md-12">
+    <div class="textdiv col-lg-5 col-md-12">
       <h1 class="mb-0">BIO</h1>
       <h2 class="mb-0 ms-3">GRAPHY</h2>
-      <p id="about">I stumbled upon web development during my teenage years while modifying Tumblr themes to my will. I love that it allows me to be creative and think outside the box while putting my problem-solving skills to use.</p>
-      <%= link_to "Work with me", "contacts#new", class: "contactme" %>
+      <h5 id="about">I stumbled upon web development during my teenage years and it was love at first code !</h5>
+      <p id="about">My love affair started with customizing tumblr themes, and recently I finally made the move to enroll - and complete - a web development bootcamp. I love how it allows me to unleash my creativity, push the limits of my imagination, and bring my problem-solving skills to the next level.</p>
+      <p id="about">Every day is a new adventure and I'm excited for what the future holds in this constantly evolving world of tech! </p>
+
+      <%# <%= link_to "Work with me", "contacts#new", class: "contactme" %>
     </div>
   </div>
 </div>
-
 
 
 
@@ -95,7 +97,7 @@
         <%= image_tag "extended_away1.png", class:"imagesportfolio" %>
         <div class="card-product-infos cardsportfolio">
           <h3 class="mb-5">Extended Away</h3>
-          <p>A web app designed for people who are going to travel and need someone to take care of their homes. Our mission is to provide a simple, intuitive way for Homeowners and Caretakers to interact and get things done, faster. </p>
+          <p>Get ready for an epic adventure, because with our web app, you can travel the world with peace of mind! Our mission is to revolutionize the way homeowners connect with caretakers, making the process simple, fast, and effortless. Built on Rails 7 our web app offers a rich set of features that streamline the process and get things done quickly.</p>
           <p class="languages"><strong>Uses:</strong> RoR, Javascript, Bootstrap, CSS, HTML</p>
           <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
         </div>
@@ -106,8 +108,8 @@
     <div class="row">
       <div class="card-product d-flex align-items-center m-a">
         <div class="card-product-infos cardsportfolio">
-          <h3>GoatScape</h3>
-          <p>A Web Marketplace application on Rails 7 that replicates Airbnb functionality to create new bookings, filter, and search for listings.</p>
+          <h3 class="mb-5">GoatScape</h3>
+          <p>A powerful platform built on Rails 7 to replicate the functionality of Airbnb. With this application you can create new bookings, filter and search for listings with ease.</p>
           <p class="languages"><strong>Uses:</strong> RoR, Javascript, Bootstrap, CSS, HTML</p>
           <a class="btn btn-primary"  href="http://www.extendedaway.me/" role="button">View Project</a>
         </div>
@@ -122,9 +124,14 @@
       <div class="card-product d-flex align-items-center m-a">
         <%= image_tag "adminvirtuosa.png", class:"imagesportfolio" %>
         <div class="card-product-infos cardsportfolio">
-          <h3>Admin Virtuosa</h3>
-          <p>A website I built from scratch for a virtual assistant, before I enter the bootcamp.</p>
-          <p class="languages"><strong>Uses:</strong>Bootstrap, CSS, HTML, Javascript</p>
+          <h3 class="mb-5">Admin Virtuosa</h3>
+
+
+
+<p>A straightforward and informative platform about Admin Virtuosa, designed to provide all the information you need on their virtual assistance services. The minimalist design emphasizes readability and easy navigation, making it simple to find the information you're looking for.</p>
+
+          <%# <p>A website I built from scratch for a virtual assistant, before I enter the bootcamp.</p> %>
+          <p class="languages"><strong>Uses: </strong>Bootstrap, CSS, HTML, Javascript</p>
           <a class="btn btn-primary"  href="https://www.adminvirtuosa.com/" role="button">View Project</a>
         </div>
       </div>

@@ -19,7 +19,7 @@
   }
 
   .card-text{
-    font-size: 15px;
+    font-size: 14px;
   }
 
   p{
@@ -45,6 +45,15 @@
   a{
     font-family: 'Libre Franklin', sans-serif;
   }
+
+  p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    line-height: 1.77;
+  }
+
 
 }
 
@@ -101,4 +110,21 @@
         justify-content: center;
     }
   }
+}
+
+.card-product-infos{
+
+  h3{
+    font-family: "Libre Franklin", sans-serif;
+  }
+  p{
+  font-size: 16px;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-bottom: 14px!important;
+}
+.languages{
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 20px!important;
+}
 }
