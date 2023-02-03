@@ -76,6 +76,5 @@ group :test do
   gem "webdrivers"
 end
 
-gem "cloudinary"
 
 gem "mail_form", "~> 1.9"
