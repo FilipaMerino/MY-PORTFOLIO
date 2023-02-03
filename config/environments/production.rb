@@ -89,5 +89,4 @@ Rails.application.configure do
   end
 
   # Do not dump schema after migrations.
-
 end
