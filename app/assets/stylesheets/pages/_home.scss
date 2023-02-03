@@ -213,13 +213,16 @@ background-color: $bege;
 
   #skills{
     margin-bottom:0px!important;
-      p{
-        font-weight: lighter;
-        font-family: 'Libre Franklin', sans-serif;
-        font-size: 15px;
-      }
   }
 
+  .card-text{
+    p{
+      font-weight: lighter;
+      font-family: 'Libre Franklin', sans-serif;
+      font-size: 15px;
+    }
+
+  }
 
   .languages{
     font-size: 12px!important;
