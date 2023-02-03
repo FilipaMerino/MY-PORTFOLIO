@@ -170,11 +170,20 @@ background-color: $bege;
     left: 0px;
     font-size: 15px;
     display: flex;
+    font-weight: lighter;
+    font-family: 'Libre Franklin', sans-serif;
+
   }
 
   h2{
     margin-bottom: 40px!important;
     font-family: 'Libre Franklin', sans-serif;
+  }
+
+  h1{
+    font-size: 50px;
+    font-family: 'Cormorant', serif;
+    font-weight: 700!important;
   }
 }
 
