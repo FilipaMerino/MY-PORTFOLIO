@@ -220,7 +220,7 @@ background-color: $bege;
       font-weight: lighter;
       font-family: 'Libre Franklin', sans-serif;
       font-size: 15px;
-    
+
 
   }
 
@@ -229,6 +229,17 @@ background-color: $bege;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+
+// -------------------- Portfolio
+  .cardsportfolio{
+    p{
+      font-weight: lighter;
+      font-family: 'Libre Franklin', sans-serif;
+      font-size: 15px;
+    }
+
   }
 
 }
